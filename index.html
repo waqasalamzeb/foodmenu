@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="tabs">
+            <button class="tab-link" onclick="openTab(event, 'All')">All</button>
+            <button class="tab-link" onclick="openTab(event, 'Breakfast')">Breakfast</button>
+            <button class="tab-link" onclick="openTab(event, 'Lunch')">Lunch</button>
+            <button class="tab-link" onclick="openTab(event, 'Dinner')">Dinner</button>
+        </div>
+        <div class="menu-container">
+
+        <div id="Breakfast" class="tab-content">
+            <h3>Breakfast</h3>
+            <div class="food-item">
+                <img src="images/pancakes.jpg" alt="Pancakes">
+                <p>Pancakes</p>
+            </div>
+            <div class="food-item">
+                <img src="images/omelette.jpeg" alt="Omelette">
+                <p>Omelette</p>
+            </div>
+        </div>
+
+        <div id="Lunch" class="tab-content">
+            <h3>Lunch</h3>
+            <div class="food-item">
+                <img src="images/sandwich.jpeg" alt="Sandwich">
+                <p>Sandwich</p>
+            </div>
+            <div class="food-item">
+                <img src="images/salad.jpg" alt="Salad">
+                <p>Salad</p>
+            </div>
+        </div>
+
+        <div id="Dinner" class="tab-content">
+            <h3>Dinner</h3>
+            <div class="food-item">
+                <img src="images/steak.jpeg" alt="Steak">
+                <p>Steak</p>
+            </div>
+            <div class="food-item">
+                <img src="images/pasta.jpg" alt="Pasta">
+                <p>Pasta</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
